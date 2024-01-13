@@ -15,6 +15,11 @@
   border: 0;
   cursor: pointer;
 }
+.section-title{
+  color: var(--Dark-01, #131313);
+  font-size: 3rem;
+  font-weight: 700;
+}
 /* header styles */
 header {
   background: rgba(255, 144, 14, 0.1);
@@ -25,11 +30,7 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
-.nav-title {
-  color: var(--Dark-01, #131313);
-  font-size: 3rem;
-  font-weight: 700;
-}
+
 nav > ul {
   display: flex;
 }
@@ -120,8 +121,8 @@ main {
       grid-template-columns: 1fr;
     }
     .teams-contet {
-      padding-right: 75px;
-      padding-left: 75px;
+      padding-right: 20px;
+      padding-left: 20px;
     }
 }
   /* tablet or medium devices */
