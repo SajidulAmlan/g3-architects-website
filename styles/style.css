@@ -144,7 +144,8 @@ main {
     padding: 20px;
   }
   nav,
-  .teams-container .facts-card-container {
+  .teams-container ,
+  .facts-card-container {
     flex-direction: column;
   }
   .teams-img-container {
@@ -161,7 +162,11 @@ main {
     padding: 50px;
   }
   nav,
-  .teams-container .facts-card-container {
+  .teams-container,
+  .facts-card-container {
     flex-direction: column;
+  }
+  .facts-card-container{
+    gap: 20px;
   }
 }
